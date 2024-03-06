@@ -23,9 +23,9 @@ In order to change the code:
     - Create an indiviual branch for each task (e.g. mtr_working_scrape-class)
     - Create one working branch which you will sync with the main branch on a regular bases (e.g mtr_working)
 2. Create your changes in your local repo, commit and push your working branch to the remote repo (GitHub)
-3. Once your remote branch has been pushed, you can create a merge request on GitHub. Detail your changes and create MR.
-Currently the MR has to be approved by at least one person and the code owner (@Moritz). The last step is only to make sure everything is ok in the beginning and is subject to change later so you can merge w/o me. 
-Once your MR is requested, ping the group to request a code review. Everybody that wants to can clone your working branch and leave commments on the MR. If any changes have to be made, make them on your local working branch and push them to remote, they will automaticially be included in your MR. Once approved my enough people (or code owner), you can merge the branch to main, where you potentially have to resolve merge conflicts,
+3. Once your remote branch has been pushed, you can create a pull request on GitHub. Detail your changes and create PR.
+Currently the PR has to be approved by at least one person and the code owner (@Moritz). The last step is only to make sure everything is ok in the beginning and is subject to change later so you can merge w/o me. 
+Once your PR is requested, ping the group to request a code review. Everybody that wants to can clone your working branch and leave commments on the PR. If any changes have to be made, make them on your local working branch and push them to remote, they will automaticially be included in your PR. Once approved my enough people (or code owner), you can merge the branch to main, where you potentially have to resolve merge conflicts,
 4. Once merged don't forget to either create a new working branch or sync your current one (see 1.)
 
 ## Coding "Styleguide"
@@ -69,7 +69,7 @@ Keep your commits granular, keep your commit titles short. If you need more deta
 Once your done with your local changes you can push to remote by
 
  - git push origin branch-name
-## Creating Merge Requests
+## Creating Pull Requests
 
 # Venv/ Python Packages
 Venv is a python tool to create virtual python environments. This is useful to have multiple python instances, for example you can install all required packages for this project (which could potentially be large) w/o trashing your systems python instance and slowing it down. For us it is also helpful to have a common environment so our code runs reliably on every machine.
@@ -80,4 +80,4 @@ Make sure your VS code interpreter is set to this python bin. If you use the com
 - Linux/ Mac: ./venv/scripts/activate
 - Win: ./venv/scripts/Activate.ps1
 
-If you install any new packages, make sure to push the venv folder as well and detail new packages in MR
+If you install any new packages, make sure to push the venv folder as well and detail new packages in PR
