@@ -70,6 +70,10 @@ Once your done with your local changes you can push to remote by
 
  - git push origin branch-name
 ## Creating Pull Requests
+On GitHub, go to Pull Requests, select branch to compare against main (your working branch) and create pull request.
+Detail your work and create pull request.
+Look at https://github.com/motrieu/prog-data-sci/pull/1 if you need an example
+Once PR has been approved you can merge.
 
 # Venv/ Python Packages
 Venv is a python tool to create virtual python environments. This is useful to have multiple python instances, for example you can install all required packages for this project (which could potentially be large) w/o trashing your systems python instance and slowing it down. For us it is also helpful to have a common environment so our code runs reliably on every machine.
