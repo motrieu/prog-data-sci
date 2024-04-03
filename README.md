@@ -6,11 +6,6 @@ Members:
  - Huang Tongyi
  - Moritz Trieu
 
- Python Version: 3.11.4
-
-Further documentation and results, not contained in this repo can be found under:
-https://docs.google.com/document/d/16j4VfSlvhqssUdWIX4S-B2k7sDmYypXg7qdXDZHerwY/edit?usp=sharing
-
 # Contents
 
 This module contains the functionality and output of webscraping in the project. It contains: 
