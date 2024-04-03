@@ -17,6 +17,13 @@ This module contains the functionality and output of webscraping in the project.
  - this README.me
  - .gitignore
 
+# Package dependencies
+
+ - Python csv package
+ - Python re package
+ - Python time package
+ - selenium
+
 
 # How to run
 Before you run the code, it can be beneficial to have set up a virtual environment. 
