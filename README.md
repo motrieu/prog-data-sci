@@ -85,3 +85,16 @@ Make sure your VS code interpreter is set to this python bin. If you use the com
 - Win: ./venv/scripts/Activate.ps1
 
 If you install any new packages, make sure to push the venv folder as well and detail new packages in PR
+
+# How to run
+
+After you have activated your virtual environment, you can start running the code. Navigate into the directory and execute each script seperately. 
+
+To scrape top 250 movies: run movie_scraper.py through your IDE or using: python movie_scraper.py in the terminal
+
+To scrape top 100 celebs: run celeb_scraper.py through your IDE or using: python celeb_scraper.py in the terminal
+
+To scrape reviews of "Home Alone": run ha_scraper.py through your IDE or using: python ha_scraper.py in the terminal
+
+The csv files will show up in the root folder. 
+
