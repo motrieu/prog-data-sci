@@ -15,15 +15,18 @@ https://docs.google.com/document/d/16j4VfSlvhqssUdWIX4S-B2k7sDmYypXg7qdXDZHerwY/
 
 This module contains the functionality and output of webscraping in the project. It contains: 
 
- - datasci/exp folder: Contains the scripts scraping the top 250 movies on IMDb, the top 100 celebs and the reviews fo the movie "Home Alone".
- - 
+ - datasci/exp folder: Contains the scripts scraping the top 250 movies on IMDb (movie_scraper), the top 100 celebs (celeb_scraper) and the reviews fo the movie "Home Alone" (ha_scraper).
+ - imdb_top_250.csv: the resulting data from movie_scraper
+ - imdb_top_100_celebs.csv: the resulting data from celeb_scraper
+ - home_alone_reviews_enhanced.csv: the resulting data from ha_scraper
+ - this README.me
+ - .gitignore
 
 
 # How to run
-Before you run the code, it can be beneficial to have set up a virtual environment. Make sure your VS code interpreter is set to this python bin. If you use the command line make sure to activate the environment before running any python operations by
+Before you run the code, it can be beneficial to have set up a virtual environment. 
 
-- Linux/ Mac: ./venv/scripts/activate
-- Win: ./venv/scripts/Activate.ps1
+EXPLAIN HOW? 
 
 After you have activated your virtual environment, you can start running the code. Navigate into the directory and execute each script seperately. 
 
