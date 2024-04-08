@@ -1,5 +1,5 @@
 # Final Project for Course "Programming in Data Science" UPM 2nd Semester 2024
-Members:
+Group members:
  - Sigrid Festoy
  - Sebastian Montenius
  - Yu Xindi
@@ -15,3 +15,6 @@ This project contains 2 main folders:
 
 Each folder contains its own README describing its contents, dependencies and how to run the code. 
 
+# Video presentation link
+
+INCLUDE LINK HERE
