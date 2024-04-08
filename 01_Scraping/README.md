@@ -2,10 +2,12 @@
 
 This module contains the functionality and output of webscraping in the project. It contains: 
 
- - datasci/exp folder: Contains the scripts scraping the top 250 movies on IMDb (movie_scraper), the top 100 celebs (celeb_scraper) and the reviews fo the movie "Home Alone" (ha_scraper).
- - imdb_top_250.csv: the resulting data from movie_scraper
- - imdb_top_100_celebs.csv: the resulting data from celeb_scraper
- - home_alone_reviews_enhanced.csv: the resulting data from ha_scraper
+ - datasci/exp folder: Contains the scripts scraping the top 250 movies on IMDb (movie_scraper) and their repective details (Movie_detail_info_scrape.ipynb), the top 100 celebs (celeb_scraper) and the reviews fo the movie "Home Alone" (ha_scraper).
+ - imdb_top_250.csv: containing the data from the top 250 movies
+ - imdb_top_100_celebs.csv: containing the data from the top 100 celebs
+ - home_alone_reviews_enhanced.csv: containing the data from the Home Alone reviews
+ - Top250_detailed_info.csv: containing the details from the 250 top movies
+ - Movie_n_Celebrity.csv: containing movie and celebrity data
  - this README.me
  - .gitignore
 
@@ -15,6 +17,7 @@ This module contains the functionality and output of webscraping in the project.
  - Python re package
  - Python time package
  - selenium
+ - pandas
 
 
 # How to run
