@@ -21,9 +21,24 @@ This module contains the functionality and output of webscraping in the project.
 
 
 # How to run
-Before you run the code, it can be beneficial to have set up a virtual environment. 
+Before you run the code, it can be beneficial to have set up a virtual environment. Navigate to your project directory, then run the following:
 
-EXPLAIN HOW? 
+For windows: 
+
+pip install virtualenv
+
+virtualenv venv
+
+.\venv\Scripts\activate
+
+For macOS: 
+
+python3 -m venv venv
+
+python -m venv venv
+
+source venv/bin/activate
+
 
 After you have activated your virtual environment, you can start running the code. Navigate into the directory and execute each script seperately. 
 
