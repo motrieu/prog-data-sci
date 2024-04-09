@@ -23,4 +23,4 @@ This module contains the code for the data analysis of the project. It contains:
 
 # How to run
 
-HOW
+All files run as Jupyter notebooks.
