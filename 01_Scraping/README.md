@@ -47,5 +47,7 @@ After you have activated your virtual environment, you can start running the cod
  - To scrape top 100 celebs: run celeb_scraper.py through your IDE or using: python celeb_scraper.py in the terminal
 
  - To scrape reviews of "Home Alone": run ha_scraper.py through your IDE or using: python ha_scraper.py in the terminal
+   
+ - Movie_detail_info_scraper.ipynb runs as a Jupyter notebook
 
 The csv files will show up in the root folder. 
